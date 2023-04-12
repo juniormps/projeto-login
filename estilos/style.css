@@ -1,6 +1,22 @@
 @charset "UTF-8";
 
 /*
+@font-face {
+	font-family: 'segoeui';
+	src: url('../fontes/Segoe\ UI.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'segoeui-bold';
+	src: url('../fontes/Segoe\ UI\ Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+*/
+
+/*
 	Paleta de Cores
 	Verde:  #49a09d
 	Lilás:  #5f2c82
@@ -12,7 +28,7 @@
 }
 
 html, body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 body {
@@ -50,4 +66,53 @@ div#formulario {
 	width: 100%;
 	height: 60%;
 	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+div#formulario > p {
+	font-size: 14px;
+	text-align: justify;
+	line-height: 16px;
+	padding: 0px 15px 5px 15px;
+}
+
+form > div#user {
+	background-color: #5f2c82;
+	width: 90%;
+	height: 35px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 7px;
+}
+
+form > div#chave {
+	background-color: #5f2c82;
+	width: 90%;
+	height: 35px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 7px;
+}
+
+form > div#entrada {
+	background-color: #49a09d;
+	width: 90%;
+	height: 35px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 7px;
+}
+
+form > div#esqueci {
+	width: 90%;
+	height: 35px;
+	margin: auto;
+	margin-bottom: 5px;
+	border: 1.5px solid #49a09d;
+	border-radius: 7px;
 }
