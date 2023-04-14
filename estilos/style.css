@@ -70,16 +70,20 @@ div#formulario {
 }
 
 h1 {
+	font-size: 24px;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
 }
 
 div#formulario > p {
-	font-size: 14px;
+	display: block;
+	width: 90%;
+	margin: auto;
+	font-size: 12px;
 	text-align: justify;
 	line-height: 16px;
-	padding: 0px 15px 5px 15px;
+	padding-bottom: 5px;
 }
 
 div#user {
@@ -93,7 +97,7 @@ div#user {
 
 div#chave {
 	background-color: #5f2c82;
-	width: 230px;
+	width: 90%;
 	height: 40px;
 	margin: auto;
 	margin-bottom: 5px;
@@ -102,8 +106,8 @@ div#chave {
 
 input#iemail {
 	float: right;
+	width: 80%;
 	height: 35px;
-	width: 180px;
 	margin-top: 2px;
 	margin-right: 2px;
 	border: 0px;
@@ -115,8 +119,8 @@ input#iemail {
 
 input#isenha {
 	float: right;
+	width: 80%;
 	height: 35px;
-	width: 180px;
 	margin-top: 2px;
 	margin-right: 2px;	
 	border: 0px;
@@ -139,7 +143,7 @@ input#isenha {
 input#entrada {
 	display: block;
 	background-color: #49a09d;
-	width: 230px;
+	width: 90%;
 	height: 40px;
 	margin: auto;
 	margin-bottom: 5px;
@@ -151,7 +155,7 @@ input#entrada {
 
 input#esqueci {
 	display: block;
-	width: 230px;
+	width: 90%;
 	height: 40px;
 	margin: auto;
 	margin-bottom: 5px;
